@@ -19,10 +19,12 @@
   font-family: 'bx';
   src: url(../font/bx.TTF);
 }
+@font-face {
+  font-family: 'tintuc';
+  src: url(../font/tintuc.TTF);
+}
 .container .mid {
-    text-align: center;
-    position: relative;
-    top: 90px;    
+    text-align: center; 
     font-size: 120px;
     font-weight: bold;
 }
@@ -33,9 +35,14 @@
 }
 .mid h1 {
     color: white;
-    font-size: 120px;
+    font-size: 80px;
     font-weight: bold; 
-    font-family: 'font';
+    font-family: 'tintuc';
+}
+.mid img:hover {
+    transform: rotate(360deg);
+    transition: 0.9s;
+    cursor: pointer;
 }
 .mid button {
     font-size: 25px;
@@ -223,5 +230,97 @@
     font-size: 80px;
     font-weight: 800;
     letter-spacing: -10px;
-    margin-bottom: 0;
+    margin-bottom: 0
+}
+.gioithieu {
+    color: white;
+}
+.lido {
+    word-wrap: break-word;
+    word-spacing: 3px;
+    font-size: 30px;
+    padding: 20px
+}
+.details img{
+    width: 100%;
+    cursor: pointer
+}
+.details img:hover{
+    transition: 0.7s;
+    transform: scale(1.2)
+}
+.table-info {
+    color: black;
+    font-size: 20px;
+}
+.learn {
+    margin-top: 100px;
+    color: white
+}
+.learning {
+    padding: 50px;
+}.noidung div{
+    margin-right: 40px;
+    padding: 10px
+}
+.border,.border1,.border2,.border3 {
+    width: 50px; 
+    height: 50px; 
+    background: #00ffff; 
+    border-radius: 50%; 
+    text-align: center
+}
+.border {
+    margin-bottom: 100px;
+}
+.border1 {
+    margin-bottom: 110px;
+}
+.border2 {
+    margin-bottom: 140px;
+}
+.number {
+    color: black; 
+    position: relative; 
+    top: 5px; 
+    font-size: 23px
+}
+.mucdich {
+    color: white;
+}
+.title {
+    font-size: 30px;
+}
+.desc {
+    width: 900px;
+    font-size: 25px;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+}
+.say {
+    font-family: bx;
+    font-size: 64px;
+}
+.name {
+    font-family: font;
+}
+.iconsweb i{
+    font-size: 20px;
+    padding: 10px;
+}
+.fa-facebook-square:hover {
+    transition: 0.7s;
+    transform: rotate(360deg);
+    color: blue;
+}
+.fa-youtube-play:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    color: red;
+}
+.fa-twitter:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    color: #33ccff;
 }
