@@ -255,7 +255,8 @@
 }
 .learn {
     margin-top: 100px;
-    color: white
+    color: white;
+    display: none;
 }
 .learning {
     padding: 50px;
@@ -286,6 +287,7 @@
     font-size: 23px
 }
 .mucdich {
+    display: none;
     color: white;
 }
 .title {
@@ -323,4 +325,7 @@
     transform: rotate(360deg);
     transition: 0.7s;
     color: #33ccff;
+}
+.back-to-top{
+    font-size: 36px;
 }
