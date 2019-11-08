@@ -39,16 +39,41 @@
     font-weight: bold; 
     font-family: 'tintuc';
 }
-.mid img:hover {
-    transform: rotate(360deg);
-    transition: 0.9s;
+.mid .flight {
+    font-size: 32px;
+    color: white;
     cursor: pointer;
+    transform: rotate(430deg) translate(-200px, 200px);
+    animation: goFlight 5s ease;
+    animation-iteration-count: infinite;
 }
+@keyframes goFlight {
+    0%{
+        color: red;
+        transform: rotate(0deg) translate(-130px, -120px);
+    }
+    45%{
+        color: yellow;
+        transform: rotate(250deg) translate(35px, -59px);
+    }
+    70%{
+        color: blue;
+        transform: rotate(450deg) translate(0px, 0px);
+    }
+    100%{
+        transform: rotate(430deg) translate(100px, 30px);
+    }
+}
+
 .mid button {
     font-size: 25px;
     font-family: 'bx';
+    outline: none;
 }
-
+.mid .but:hover{
+    transition: 0.5s;
+    margin-bottom: 15px;
+}
 /* Text Align */
 .text-l {
     text-align: left;
@@ -294,10 +319,8 @@
     font-size: 30px;
 }
 .desc {
-    width: 900px;
     font-size: 25px;
     padding: 20px;
-    margin: auto;
     text-align: left;
 }
 .say {
@@ -313,19 +336,23 @@
 }
 .fa-facebook-square:hover {
     transition: 0.7s;
+    cursor: pointer;
     transform: rotate(360deg);
     color: blue;
 }
 .fa-youtube-play:hover {
     transform: rotate(360deg);
     transition: 0.7s;
+    cursor: pointer;
     color: red;
 }
 .fa-twitter:hover {
     transform: rotate(360deg);
     transition: 0.7s;
+    cursor: pointer;
     color: #33ccff;
 }
 .back-to-top{
+    cursor: pointer;
     font-size: 36px;
 }
