@@ -1,15 +1,6 @@
-#background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
 }
 @font-face {
   font-family: 'font';
@@ -30,22 +21,25 @@
 }
 .mid p {
     font-size: 60px;
-    color: white;
+    color: black;
     font-family: 'font';
 }
 .mid h1 {
-    color: white;
+    color: black;
     font-size: 80px;
     font-weight: bold; 
-    font-family: 'tintuc';
+    font-family: 'bx';
 }
 .mid .flight {
     font-size: 32px;
-    color: white;
+    color: black;
     cursor: pointer;
     transform: rotate(430deg) translate(-200px, 200px);
     animation: goFlight 5s ease;
     animation-iteration-count: infinite;
+}
+.valid-feedback {
+    font-size: 27px;
 }
 @keyframes goFlight {
     0%{
@@ -258,7 +252,7 @@
     margin-bottom: 0
 }
 .gioithieu {
-    color: white;
+    color: black;
 }
 .lido {
     word-wrap: break-word;
@@ -278,16 +272,25 @@
     color: black;
     font-size: 20px;
 }
+.details p {
+    font-size: 20px;
+}
 .learn {
     margin-top: 100px;
-    color: white;
+    color: black;
     display: none;
+}
+.learn > p {
+    font-size: 20px;
 }
 .learning {
     padding: 50px;
 }.noidung div{
     margin-right: 40px;
     padding: 10px
+}
+.learning .giaidap {
+    font-size: 18px;
 }
 .border,.border1,.border2,.border3 {
     width: 50px; 
@@ -297,13 +300,13 @@
     text-align: center
 }
 .border {
-    margin-bottom: 100px;
-}
-.border1 {
     margin-bottom: 110px;
 }
+.border1 {
+    margin-bottom: 120px;
+}
 .border2 {
-    margin-bottom: 140px;
+    margin-bottom: 190px;
 }
 .number {
     color: black; 
@@ -313,18 +316,17 @@
 }
 .mucdich {
     display: none;
-    color: white;
+    color: black;
 }
 .title {
     font-size: 30px;
 }
 .desc {
-    font-size: 25px;
+    font-size: 30px;
     padding: 20px;
     text-align: left;
 }
 .say {
-    font-family: bx;
     font-size: 64px;
 }
 .name {

@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family: 'font';
+  src: url(../font/font.TTF);
+}
+@font-face {
+  font-family: 'bx';
+  src: url(../font/bx.TTF);
+}
+@font-face {
+  font-family: 'tintuc';
+  src: url(../font/tintuc.TTF);
+}
+.moinhat {
+	margin-bottom: 100px;
+}
+.row .nav {
+	padding: 20px;
+}
+.row .nav li {
+	padding-top: 20px;
+}
+.curr {
+	padding: 20px;
+}
+.curr .title {
+	font-size: 30px;
+}
+.curr .desc {
+	color: gray;
+}
+.nav li {
+ 	position: relative;
+}
+.sub-menu {
+	background: black;
+	right: -350px;
+	border-radius: 20px;
+	display: none;
+	z-index: 9999999999999999;
+ 	position: absolute;
+}
+.sub-menu a {
+	color: white; 
+}
+.sub-menu a:hover {
+	color: lightblue; 
+}
+.icon {
+	position: absolute;
+	padding: 5px;
+}
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+border: 1px solid #f48fb1;
+box-shadow: 0 0 0 1px #f48fb1;
+width: 300px;
+transition: 1s;
+border-radius: 20px;
+}
+.search{
+	padding-left: 25px;
+}
+.ccc:hover .sub-menu {
+	margin-top: 20px;
+ 	display: flex;
+}
+.allkhoahoc {
+ 	margin: auto;
+ 	margin-bottom: 50px;
+}
+.motkhoahoc {
+	background-color: white;
+	border-radius: 20px;
+	height: 300px;
+	box-shadow: 0px 5px 5px 0px #f2f2f2;
+}
+.motkhoahoc:hover p{
+	color: white;
+}
+.motkhoahoc:hover .play{
+	direction: 1s;
+	display: block;
+}
+.motkhoahoc:hover .danhmuc{
+	direction: 1s;
+	display: none;
+}
+.khoahoc {
+	border-radius: 20px;
+	color: white;
+	height: 200px;
+	background-color: #ff0066;
+}
+.vue {
+	background-color: #f8b22c;
+}
+.php {
+	background-color: #3ca7f9;
+}
+.tooling {
+	background-color: #a96dca;
+}
+.js {
+	background-color: #e23237;
+}
+.java {
+	background-color: #ff9c36;
+}
+.khoahoc img {
+	padding: 15px;
+}
+.khoahoc h5 {
+	height: 20px;
+}
+.play {
+	width: 180px;
+	position: relative;
+	top: 50px;
+	padding: 5px;
+	margin: auto;
+	display: none;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: white;
+	font-weight: bold;
+}
+.play a{
+	color: black;
+}
+.play:hover {
+	transition: 1s;
+	opacity: 0.7;
+}
+.danhmuc {
+	color: gray;
+	display: flex;
+}
+.danhmuc div {
+	width: 50%;
+}
+.important {
+  transition: 1s;
+  height: 100%;
+}
+.thongbao {
+	padding: 10px;
+}
+.lar {
+	text-align: right;
+	padding: 10px;
+}
+footer {
+	background-color: #2b79e1;
+	height: 670px;
+	color: white;
+}
+.email {
+	margin: auto;
+	text-align: center;
+}
+.email p {
+	font-family: 'bx';
+	word-spacing: 3px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.email .form {
+	margin-top: 50px;
+}
+.form form {
+	margin-right: 100px;
+}
+.input {
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	margin-top: 30px;
+	margin-right: 130px;
+	width: 300px;
+	padding: 5px 15px;
+}
+.submit {
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	position: relative;
+	right: 155px;
+	background-color: #08fff6;
+	padding: 5px 15px;
+}
+.submit:hover {
+	transition: 0.6s;
+	color: blue;
+}
+.code .name {
+	font-weight: bold;
+	margin: 20px;
+}
+.code .desc-footer {
+	font-size: 18px;
+}
+.iconsweb i{
+    font-size: 23px;
+    padding: 10px;
+}
+.fa-facebook-square:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    transform: rotate(360deg);
+    color: blue;
+}
+.fa-youtube-play:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    cursor: pointer;
+    color: red;
+}
+.fa-twitter:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    cursor: pointer;
+    color: #33ccff;
+}
+.fa-github:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    cursor: pointer;
+    color: black;
+}
+.lienquan {
+	display: flex;
+	margin-left: 200px;
+}
+.lienquan div {
+	margin-left: 30px;
+}
+.lienquan div p {
+	opacity: 0.7;
+}
+.end p {
+	opacity: 0.7;
+	font-size: 13px;
+}
+.fa-heart {
+	color: white;
+}
+@media screen and (max-width: 564px) {
+	footer { height: 450px; }
+	.cc { display: none; }
+	.input { margin: 0px; }
+	.submit { position: absolute; right: 80px; }
+}

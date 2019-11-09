@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="122">
+  <defs>
+    <circle id="a" cx="60" cy="60" r="60"/>
+    <radialGradient id="b" r="256.183%" fx="50%" fy="50%" gradientTransform="matrix(-.19047 0 0 -.12904 .595 .565)">
+      <stop offset="0%"/>
+      <stop offset="100%" stop-opacity=".002"/>
+    </radialGradient>
+    <linearGradient id="d" x1="14.496%" x2="0%" y1="11.24%" y2="135.349%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="e" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#A987F7"/>
+      <stop offset="100%" stop-color="#B372BD"/>
+    </linearGradient>
+    <linearGradient id="f" x1="7.206%" x2="84.094%" y1="9.244%" y2="112.337%">
+      <stop offset="0%" stop-color="#5B79A2"/>
+      <stop offset="100%" stop-color="#2E4469"/>
+    </linearGradient>
+    <linearGradient id="g" x1="14.496%" x2="84.643%" y1="11.24%" y2="89.769%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="h" x1="45.117%" x2="0%" y1="168.048%" y2="5.569%">
+      <stop offset="0%" stop-color="#C4D6EB" stop-opacity=".676"/>
+      <stop offset="100%" stop-color="#91ACD2" stop-opacity=".3"/>
+    </linearGradient>
+    <circle id="i" cx="60" cy="60" r="60"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="c" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#000" fill-opacity=".152" xlink:href="#a"/>
+    <ellipse cx="60.08" cy="96.513" fill="url(#b)" mask="url(#c)" opacity=".298" rx="40.95" ry="7.8" transform="rotate(1 60.08 96.513)"/>
+    <g mask="url(#c)">
+      <path stroke="url(#d)" stroke-width="2" d="M26.121 121.479l85.552-54.37L46.613 8 8 35.366l27.051 16.997" transform="translate(1)"/>
+      <g transform="translate(40)">
+        <circle cx="7.773" cy="8.767" r="5.5" fill="url(#e)" transform="rotate(43 7.773 8.767)"/>
+        <path fill="#FFF" fill-opacity=".2" d="M2.308 10.084a5.555 5.555 0 1 1 10.893-1.53 5.555 5.555 0 0 0-10.893 1.53z"/>
+      </g>
+      <g transform="translate(104 58)">
+        <circle cx="7.773" cy="8.767" r="5.5" fill="url(#e)" transform="rotate(43 7.773 8.767)"/>
+        <path fill="#FFF" fill-opacity=".2" d="M2.308 10.084a5.555 5.555 0 1 1 10.893-1.53 5.555 5.555 0 0 0-10.893 1.53z"/>
+      </g>
+      <g transform="translate(1 26)">
+        <circle cx="7.773" cy="8.767" r="5.5" fill="url(#e)" transform="rotate(43 7.773 8.767)"/>
+        <path fill="#FFF" fill-opacity=".2" d="M2.308 10.084a5.555 5.555 0 1 1 10.893-1.53 5.555 5.555 0 0 0-10.893 1.53z"/>
+      </g>
+    </g>
+    <g mask="url(#c)">
+      <path fill="url(#f)" d="M0 0h65v60H0z" transform="translate(29 32)"/>
+      <path stroke="url(#g)" d="M.5.5h64v59H.5z" opacity=".5" transform="translate(29 32)"/>
+      <path fill="#2E4469" stroke="url(#h)" stroke-width=".3" d="M12.76 19.105l-.15-.15V12.09l.15-.15h2.237c1.377 0 2.397.284 3.058.86.666.58.996 1.47.996 2.66 0 1.183-.395 2.094-1.184 2.72-.781.62-1.945.926-3.489.926h-1.619zM7.99 8.221V31.05h4.62v-8.077l.15-.15h2.11c2.845 0 5.03-.649 6.56-1.942 1.525-1.288 2.288-3.15 2.288-5.596 0-2.352-.715-4.11-2.144-5.287-1.435-1.183-3.541-1.777-6.323-1.777H7.99zm32.173 4.765l1.473-3.539a23.434 23.434 0 0 0-3.278-1.136 13.512 13.512 0 0 0-3.414-.423c-2.421 0-4.31.575-5.671 1.721-1.357 1.141-2.034 2.707-2.034 4.71 0 1.064.207 1.99.618 2.78a7.04 7.04 0 0 0 1.663 2.09c.697.602 1.749 1.233 3.156 1.893 1.52.72 2.526 1.244 3.026 1.577.506.336.892.688 1.157 1.057.273.38.41.814.41 1.298 0 .859-.31 1.517-.928 1.958-.606.431-1.463.644-2.57.644-.914 0-1.918-.144-3.014-.432-1.044-.274-2.306-.736-3.788-1.386v4.232c1.864.89 4.003 1.336 6.42 1.336 2.656 0 4.72-.591 6.199-1.77 1.47-1.174 2.205-2.775 2.205-4.819 0-1.476-.392-2.717-1.175-3.729-.787-1.017-2.256-2.04-4.405-3.065-1.647-.784-2.69-1.327-3.139-1.633-.455-.312-.79-.637-1.002-.978-.217-.346-.324-.75-.324-1.21 0-.74.266-1.345.797-1.806.527-.46 1.276-.686 2.24-.686.796 0 1.604.102 2.425.305.787.195 1.771.532 2.953 1.01z" transform="translate(29 32)"/>
+      <path fill="#2E4469" d="M36.222 80h26.481v4.8H36.222z"/>
+    </g>
+    <use stroke="url(#g)" stroke-width="2" xlink:href="#i"/>
+  </g>
+</svg>

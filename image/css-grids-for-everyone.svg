@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="122">
+  <defs>
+    <circle id="a" cx="60" cy="60" r="60"/>
+    <linearGradient id="b" x1="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#5B79A2"/>
+      <stop offset="100%" stop-color="#2E4469"/>
+    </linearGradient>
+    <linearGradient id="e" x1="51.53%" x2="15.735%" y1="-164.307%" y2="83.311%">
+      <stop offset="0%" stop-color="#5B79A2"/>
+      <stop offset="100%" stop-color="#2E4469"/>
+    </linearGradient>
+    <path id="d" d="M0 0h30v30H0z"/>
+    <linearGradient id="g" x1="109.855%" x2="-22.781%" y1="34.226%" y2="34.226%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="h" x1="40.952%" x2="15.113%" y1="28.372%" y2="9.178%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="i" x1="66.698%" x2="25.494%" y1="28.264%" y2="94.729%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="j" x1="114.853%" x2="0%" y1="7.333%" y2="86.566%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="100%" stop-opacity=".372"/>
+    </linearGradient>
+    <filter id="k" width="109.3%" height="118.9%" x="-4.6%" y="-9.5%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation=".9"/>
+    </filter>
+    <path id="l" d="M0 0h30v30H0z"/>
+    <linearGradient id="m" x1="14.496%" x2="0%" y1="11.24%" y2="135.349%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="n" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#A987F7"/>
+      <stop offset="100%" stop-color="#B372BD"/>
+    </linearGradient>
+    <filter id="o" width="172%" height="172%" x="-36%" y="-36%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2"/>
+    </filter>
+    <linearGradient id="p" x1="14.496%" x2="84.643%" y1="11.24%" y2="89.769%">
+      <stop offset="0%" stop-color="#B595FD"/>
+      <stop offset="100%" stop-color="#B372BD" stop-opacity="0"/>
+    </linearGradient>
+    <circle id="q" cx="60" cy="60" r="60"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="c" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#000" fill-opacity=".152" xlink:href="#a"/>
+    <path fill="url(#b)" d="M0 0h120v120H0z" mask="url(#c)"/>
+    <g mask="url(#c)">
+      <path fill="#2E4469" stroke="#B595FD" stroke-width=".5" d="M.25.25h29.5v29.5H.25zm0 60h29.5v29.5H.25zm0-30h29.5v29.5H.25zm0 60h29.5v29.5H.25zm60-90h29.5v29.5h-29.5zm0 60h29.5v29.5h-29.5zm0-30h29.5v29.5h-29.5zm0 60h29.5v29.5h-29.5zm-30-90h29.5v29.5h-29.5zm0 60h29.5v29.5h-29.5z" opacity=".5"/>
+      <g transform="translate(30 30)">
+        <mask id="f" fill="#fff">
+          <use xlink:href="#d"/>
+        </mask>
+        <use fill="url(#e)" opacity=".6" xlink:href="#d"/>
+        <g stroke-width=".5" mask="url(#f)">
+          <path stroke="url(#g)" d="M30.4 55V17.185h-7.142V11.87H17.61V8.455h-4.943V0" transform="translate(0 -18)"/>
+          <path stroke="url(#h)" d="M34.967 56V36.056H38V17.543l-2.254-.041v-5.594H32.87V8.482h-8.55V0" transform="translate(0 -18)"/>
+          <path stroke="url(#i)" d="M21.964 1v30.09h-10.44v-6.806H0v11.208h7.387v7.58h8.744V27.796h17.816v15.815H23.782v-5.45H11.95V56" transform="translate(0 -18)"/>
+        </g>
+      </g>
+      <path fill="url(#j)" d="M82.895 63.982l6.937 4.575-58.21 23.962z" filter="url(#k)" opacity=".5" transform="rotate(3 60.726 78.25)"/>
+      <path fill="#2E4469" stroke="#B595FD" stroke-width=".5" d="M90.25.25h29.5v29.5h-29.5z" opacity=".5"/>
+      <use fill="url(#e)" opacity=".6" transform="translate(30 90)" xlink:href="#l"/>
+      <path fill="#2E4469" stroke="#B595FD" stroke-width=".5" d="M90.25 30.25h29.5v29.5h-29.5zm0 30h29.5v29.5h-29.5z" opacity=".5"/>
+      <path stroke="#B595FD" stroke-width=".5" d="M30.25 30.25h29.5v29.5h-29.5zm0 60h29.5v29.5h-29.5z"/>
+      <path fill="#2E4469" stroke="#B595FD" stroke-width=".5" d="M90.25 90.25h29.5v29.5h-29.5z" opacity=".5"/>
+      <g transform="translate(25 41)">
+        <path stroke="url(#m)" stroke-width="2" d="M67.483 75.967l-62.76-27.21 60.131-29.892L19.902 4.41"/>
+        <g transform="translate(-.5 44)">
+          <circle cx="5.5" cy="5.5" r="5.5" fill="url(#n)"/>
+          <path fill="#FFF" fill-opacity=".2" d="M2.222 10A5.555 5.555 0 1 1 10 2.222 5.555 5.555 0 0 0 2.222 10z"/>
+        </g>
+        <g transform="translate(60 14)">
+          <circle cx="5" cy="5" r="4.5" fill="url(#n)"/>
+          <path fill="#FFF" fill-opacity=".2" d="M2.278 8.5A4.444 4.444 0 1 1 8.5 2.278 4.444 4.444 0 0 0 2.278 8.5z"/>
+        </g>
+        <circle cx="21" cy="5" r="5" fill="#BC5AEC" filter="url(#o)"/>
+        <g transform="translate(18 1)">
+          <circle cx="3" cy="3.5" r="3" fill="url(#n)"/>
+          <path fill="#FFF" fill-opacity=".2" d="M1.111 5.5A2.778 2.778 0 1 1 5 1.611 2.778 2.778 0 0 0 1.111 5.5z"/>
+        </g>
+      </g>
+    </g>
+    <use stroke="url(#p)" stroke-width="2" xlink:href="#q"/>
+  </g>
+</svg>

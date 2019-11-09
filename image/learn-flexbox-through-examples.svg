@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="122">
+  <defs>
+    <circle id="a" cx="60" cy="60" r="60"/>
+    <linearGradient id="b" x1="45.117%" x2="0%" y1="168.048%" y2="5.569%">
+      <stop offset="0%" stop-color="#C4D6EB" stop-opacity=".676"/>
+      <stop offset="100%" stop-color="#91ACD2" stop-opacity=".3"/>
+    </linearGradient>
+    <linearGradient id="d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B79A2"/>
+      <stop offset="100%" stop-color="#2E4469"/>
+    </linearGradient>
+    <linearGradient id="e" x1="-22.312%" x2="24.181%" y1="82.372%" y2="100%">
+      <stop offset="0%" stop-color="#FAD961"/>
+      <stop offset="100%" stop-color="#F76B1C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f" x1="356.292%" x2="0%" y1="-38.36%" y2="89.849%">
+      <stop offset="0%" stop-color="#FFE474" stop-opacity=".131"/>
+      <stop offset="100%" stop-color="#FFC540"/>
+    </linearGradient>
+    <filter id="g" width="192.3%" height="192.3%" x="-46.2%" y="-46.2%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+    <linearGradient id="h" x1="88.081%" x2="26.195%" y1="89.849%" y2="4.032%">
+      <stop offset="0%" stop-color="#FFE474" stop-opacity=".131"/>
+      <stop offset="100%" stop-color="#FFC540"/>
+    </linearGradient>
+    <circle id="i" cx="60" cy="60" r="60"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <mask id="c" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#000" fill-opacity=".152" xlink:href="#a"/>
+    <rect width="119.5" height="119.5" x=".25" y="1.25" fill="#2E4469" stroke="url(#b)" stroke-width=".5" mask="url(#c)" rx="2"/>
+    <rect width="119" height="110" x="1" y="12" fill="url(#d)" mask="url(#c)" rx="1.4"/>
+    <g mask="url(#c)">
+      <g transform="translate(15 32)">
+        <rect width="29.167" height="61.543" x=".25" y=".25" fill="#2E4469" stroke="url(#b)" stroke-width=".5" rx="1.8"/>
+        <rect width="29.167" height="24.79" x="38.25" y=".25" fill="#2E4469" stroke="url(#b)" stroke-width=".5" rx="1.8"/>
+        <rect width="28.767" height="24.39" x="38.45" y=".45" stroke="url(#e)" stroke-width=".9" rx="1.8"/>
+        <rect width="12.086" height="61.543" x="76.664" y=".25" fill="#2E4469" stroke="url(#b)" stroke-width=".5" rx="1.8"/>
+        <rect width="29.167" height="31.699" x="38.25" y="30.093" fill="#2E4469" stroke="url(#b)" stroke-width=".5" rx="1.8"/>
+      </g>
+    </g>
+    <g mask="url(#c)">
+      <g transform="rotate(130 45.53 62.403)">
+        <path stroke="url(#f)" stroke-width="2" d="M70.188.63L61.62 41.759l-46.948-19.42-7.64 42.248"/>
+        <circle cx="61.5" cy="40.5" r="3.5" fill="#FAC446"/>
+        <g transform="translate(11 19)">
+          <circle cx="3.5" cy="3.5" r="3.5" fill="#FAC446"/>
+          <path fill="#FFF" fill-opacity=".2" d="M1.333 6A3.333 3.333 0 1 1 6 1.333 3.333 3.333 0 0 0 1.333 6z"/>
+        </g>
+        <path fill="#FFF" fill-opacity=".2" d="M12.333 25A3.333 3.333 0 1 1 17 20.333 3.333 3.333 0 0 0 12.333 25z"/>
+        <g transform="translate(0 57)">
+          <circle cx="7" cy="7" r="6.5" fill="#C08D17" filter="url(#g)"/>
+          <circle cx="7" cy="7" r="3" fill="#FAC446"/>
+        </g>
+        <path fill="#FFF" fill-opacity=".2" d="M5.143 66.143a2.857 2.857 0 1 1 4-4 2.857 2.857 0 0 0-4 4z"/>
+      </g>
+    </g>
+    <use stroke="url(#h)" stroke-width="2" xlink:href="#i"/>
+  </g>
+</svg>

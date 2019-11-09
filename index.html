@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Home</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/usm/popper.min.js"></script>
@@ -12,15 +13,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<video autoplay loop muted poster="image/screenshot.jpg" id="background">
-		<source src="video.mp4" type="video/mp4">
-			Video nền
-	</video>
 	<div class="container">
     <div class="row">
-      <div class="col-sm-12 mid">
+      <div class="mid">
       			<p>Redefine education</p>
-        	<h1>Học lập trình miễn phí cùng <img width="20%" src="image/logo.png"></h1>
+        	<h1>Học lập trình miễn phí cùng </h1>
+            <img width="20%" src="image/logo.png">
             <p class="flight"><i class="fa fa-location-arrow"></i></p>
             <div class="col-sm-12 share-btn">
               <div class="close ion-close-round"></div>
@@ -43,15 +41,22 @@
                     <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
                 </div>
                 <div class="container-content">
-                    <form class="margin-t">
+                    <form class="margin-t was-validated">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Email" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
                         </div>
                         <div class="form-group">
                             <input type="password" class="form-control" placeholder="******" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
                         </div>
                         <button type="submit" class="form-button button-l margin-b">Đăng nhập</button>
-        
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <br />
                         <a class="text-darkyellow" href="#"><small>Quên mật khẩu?</small></a>
                         <a class="text-darkyellow" href="#"><p class="text-whitesmoke text-center"><small>Bạn chưa có tài khoản?</small></p></a>
                     </form>
@@ -77,18 +82,31 @@
                     <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
                 </div>
                 <div class="container-content">
-                    <form class="margin-t">
+                    <form class="margin-t was-validated">
                         <div class="form-group">
                             <input type="name" class="form-control" placeholder="Username" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
                         </div>
                         <div class="form-group">
                             <input type="phone" class="form-control" placeholder="Phone" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" placeholder="Email" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="******" required="">
+                            <input type="password" class="form-control" placeholder="Password" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Repeat Password" required="">
+                            <div class="valid-feedback"><i class="fa fa-thumbs-up"></i></div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
                         </div>
                         <button type="submit" class="form-button button-l margin-b">Đăng Kí</button>
                     </form>
@@ -122,7 +140,7 @@
             <div class="col-sm-12">
                 <div class="float-right back-to-top" style="position: fixed; top: 550px; display: none;">
                <i class="fa fa-caret-square-o-up"></i>
-        </div>
+            </div>
             </div>
         </div>
         <div class="col-sm-12 d-flex text-center details">
@@ -167,19 +185,19 @@
             <div class="col-sm-5 noidung">
                 <div>
                     <p class="table-info">Học lập trình cơ bản</p>
-                    <p>Bạn sẽ được làm quen với ngôn ngữ lập trình JavaScript, các ngôn ngữ khác phục vụ cho lập trình web như HTML, CSS.</p>
+                    <p class="giaidap">Bạn sẽ được làm quen với ngôn ngữ lập trình JavaScript, các ngôn ngữ khác phục vụ cho lập trình web như HTML, CSS.</p>
                 </div>
                 <div>
                     <p class="table-info">Học lập trình nâng cao</p>
-                    <p>Khoá học này bao gồm JavaScript nâng cao, các framework được sử dụng để lập trình cho front-end và back-end.</p>
+                    <p class="giaidap">Khoá học này bao gồm JavaScript nâng cao, các framework được sử dụng để lập trình cho front-end và back-end.</p>
                 </div>
                 <div>
                     <p class="table-info">Làm dự án</p>
-                    <p>Sau khi học xong lập trình nâng cao, bạn sẽ được thực tập với một dự án nhỏ quy mô 1 dev, được người có kinh nghiệm hơn review code. Sau đó sẽ thực tập với các dự án lớn hơn, sát với công việc thực tế hơn và quy mô team lớn hơn.</p>
+                    <p class="giaidap">Sau khi học xong lập trình nâng cao, bạn sẽ được thực tập với một dự án nhỏ quy mô 1 dev, được người có kinh nghiệm hơn review code. Sau đó sẽ thực tập với các dự án lớn hơn, sát với công việc thực tế hơn và quy mô team lớn hơn.</p>
                 </div>
                 <div>
                     <p class="table-info">Học các kỹ năng để đi làm tại công ty</p>
-                    <p>Trước khi vào các làm việc, các bạn sẽ được đào tạo các kĩ năng cơ bản để có thể thích nghi được với môi trường làm việc của một đất nước công nghiệp, những kĩ năng mà bạn thường không được học ở trường lớp.</p>
+                    <p class="giaidap">Trước khi vào các làm việc, các bạn sẽ được đào tạo các kĩ năng cơ bản để có thể thích nghi được với môi trường làm việc của một đất nước công nghiệp, những kĩ năng mà bạn thường không được học ở trường lớp.</p>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -213,7 +231,7 @@
 $(document).ready(function(){
     $(window).scroll(function(event) {
       var pos_body = $('html,body').scrollTop();
-      if(pos_body>400){
+      if(pos_body>500){
          $('.learn').show(1000);
       }else{
          $('.learn').hide(1000);
