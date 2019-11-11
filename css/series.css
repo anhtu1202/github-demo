@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+  font-family: 'font';
+  src: url(../font/font.TTF);
+}
+@font-face {
+  font-family: 'bx';
+  src: url(../font/bx.TTF);
+}
+@font-face {
+  font-family: 'tintuc';
+  src: url(../font/tintuc.TTF);
+}
+.row .nav {
+	padding: 20px;
+}
+.row .nav li {
+	padding-top: 20px;
+}
+.curr {
+	padding: 20px;
+}
+.curr .title {
+	font-size: 30px;
+}
+.curr .desc {
+	color: gray;
+}
+.nav li {
+ 	position: relative;
+}
+.sub-menu {
+	background: black;
+	right: -350px;
+	border-radius: 20px;
+	display: none;
+	z-index: 9999999999999999;
+ 	position: absolute;
+}
+.sub-menu a {
+	color: white; 
+}
+.sub-menu a:hover {
+	color: lightblue; 
+}
+.icon {
+	position: absolute;
+	padding: 5px;
+}
+.active-pink-2 input[type=text]{
+border: 1px solid #f48fb1;
+box-shadow: 0 0 0 1px #f48fb1;
+width: 350px;
+transition: 1s;
+border-radius: 20px;
+}
+.search{
+	padding-left: 25px;
+}
+.ccc:hover .sub-menu {
+	margin-top: 20px;
+ 	display: flex;
+}
+.text-right a{
+	font-size: 16px;
+}
+.link {
+	background-color: #2b79e1;
+	color: white; 
+	padding: 15px;
+}
+.link div{
+	margin-left: 150px;
+}
+section {
+	height: 600px;
+}
+aside {
+	padding: 20px;
+	width: 30%;
+	float: left;
+}
+#tieude {
+	padding: 10px;
+}
+.fa-bullhorn {
+	float: right;
+}
+#thediv_scroll{
+	margin: 20px;
+	height: 500px;
+	color: black;
+	outline: none;
+	width: 300px;
+	background-color: white;
+	margin-left: 80px;
+	padding: 5px 5px 5px 5px;/* canh chinh noi dung va le the div*/
+	overflow:auto; /* thuoc tinh nay lam xuat hien thanh cuon*/
+}
+
+a .stt:hover {
+	background-color: lightgray;
+	opacity: 0.8;
+	transition: 0.8s;
+}
+a .number {
+	width: 40px; 
+    height: 40px; 
+    background: black; 
+    border-radius: 50%; 
+    color: white; 
+    padding: 5px 10px;
+    font-size: 20px;
+}
+a .stt {
+	position: relative;
+	padding: 5px;
+}
+a .title{
+	position: absolute;
+	top: 10px;
+	color: black;
+	left: 60px;
+}
+a .titleactive {
+	color: blue;
+}
+.phongto {
+	position: relative;
+}
+.phongto button:hover {
+	font-weight: bold;
+}
+.phongto button {
+	position: absolute; 
+	margin-left: 40px; 
+	z-index: 9999999999; 
+	color: white;
+	padding: 7px;
+	outline: none;
+	border: 1px solid lightblue;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+article {
+	padding: 40px;
+	width: 65%;
+	float: left;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.ad {
+	padding: 15px;
+	font-size: 14px;
+}
+.ad a{
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
+.ad a:hover {
+	color: blue;
+	border: 1px solid blue;
+}
+.commit .tacgia {
+	text-transform: uppercase;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 15px;
+}
+.commit .tuthuat {
+	margin: auto;
+}
+.tuthuat .xuatban {
+	opacity: 0.6;
+}
+.commnets 
+.media-object {
+  margin-right: 15px;
+}
+
+.commnets {
+  border: 1px solid #F7F7F0;
+  padding: 18px 18px 18px 0;
+  margin-bottom: 50px
+}
+
+.commnets .pull-left {
+  margin-right: 22px
+}
+
+.commnets p, 
+.response-area p, 
+.replay-box p {
+  font-size: 12px
+}
+
+.media-heading {
+  color: #363432;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px
+}
+
+.blog-socials {
+  margin-bottom: -9px;
+  margin-top: 14px;
+}
+
+.blog-socials ul {
+  padding-left: 0;
+  overflow: hidden;
+  float: left;
+}
+
+.blog-socials .btn.btn-primary{
+  margin-top: 0;
+}
+
+.blog-socials ul li {
+  
+  float: left;
+  height: 17px;
+  margin-right: 5px;
+  text-align: center;
+  width: 17px;
+}
+
+
+.blog-socials ul li a {
+  color: #393B3B;
+  display: block;
+  font-size: 10px;
+  padding: 1px;
+  background:#F0F0E9;
+}
+
+.blog-socials ul li a:hover {
+  color: #fff;
+  background:#FE980F
+}
+
+
+.media-list .btn-primary, 
+.commnets .btn-primary {
+  background:#FC9A11;
+  border: 0 none;
+  border-radius: 0;
+  color: #FFFFFF;
+  float: left;
+  font-size: 10px;
+  padding: 1px 7px;
+  text-transform: uppercase;
+}
+
+.response-area h2 {
+  color: #363432;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.response-area .media {
+  border: 1px solid #F7F7F0;
+  padding: 18px 18px 18px 0;
+  margin-bottom: 27px
+}
+
+.response-area .media img{
+  width: 70px;
+  height: 70px;
+}
+
+.response-area .media .pull-left {
+  margin-right: 25px
+}
+
+.response-area .second-media {
+  margin-left: 5%;
+  width: 95%;
+}
+
+
+.sinlge-post-meta {
+  overflow: hidden;
+  padding-left: 0;
+  margin-bottom: 15px
+}
+
+
+
+.sinlge-post-meta li {
+  background:#F0F0E9;
+  color: #363432;
+  float: left;
+  font-size: 10px;
+  font-weight: 700;
+  margin-right: 10px;
+  padding: 0 10px 0 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.sinlge-post-meta li i {
+  background:#FE980F;
+  color: #FFFFFF;
+  margin-right: 10px;
+  padding: 8px 10px;
+}
+
+.sinlge-post-meta li i:after {
+  top: 7px;
+  border-width: 6px;
+  left: 27px;
+}
+footer {
+	background-color: #2b79e1;
+	height: 670px;
+	color: white;
+}
+.email {
+	margin: auto;
+	text-align: center;
+}
+.email p {
+	font-family: 'bx';
+	word-spacing: 3px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+}
+.email .form {
+	margin-top: 50px;
+}
+.form form {
+	margin-right: 100px;
+}
+.input {
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	margin-top: 30px;
+	margin-right: 130px;
+	width: 300px;
+	padding: 5px 15px;
+}
+.submit {
+	border-radius: 15px;
+	outline: none;
+	border: none;
+	position: relative;
+	right: 155px;
+	background-color: #08fff6;
+	padding: 5px 15px;
+}
+.submit:hover {
+	transition: 0.6s;
+	color: blue;
+}
+.code .name {
+	font-weight: bold;
+	margin: 20px;
+}
+.code .desc-footer {
+	font-size: 18px;
+}
+.iconsweb i{
+    font-size: 23px;
+    padding: 10px;
+}
+.fa-facebook-square:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    transform: rotate(360deg);
+    color: blue;
+}
+.fa-youtube-play:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    cursor: pointer;
+    color: red;
+}
+.fa-twitter:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    cursor: pointer;
+    color: #33ccff;
+}
+.fa-github:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    cursor: pointer;
+    color: black;
+}
+.lienquan {
+	display: flex;
+	margin-left: 200px;
+}
+.lienquan div {
+	margin-left: 30px;
+}
+.lienquan div p a{
+	opacity: 0.7;
+	color: white;
+}
+.end p {
+	opacity: 0.7;
+	font-size: 13px;
+}
+.fa-heart {
+	color: white;
+}
+@media screen and (max-width: 564px) {
+	footer { height: 450px; }
+	.cc { display: none; }
+	ul { margin: 20px; }
+	.active-pink-2 input[type=text]:focus:not([readonly]) {
+	border: 1px solid #f48fb1;
+	box-shadow: 0 0 0 1px #f48fb1;
+	width: 400px;
+	transition: 1s;
+	border-radius: 20px;
+	}
+	.active-pink-2 input[type=text] {
+	border: 1px solid #f48fb1;
+	box-shadow: 0 0 0 1px #f48fb1;
+	width: 400px;
+	border-radius: 20px;
+	}
+	.input { margin: 0px; }
+	.submit { position: absolute; right: 80px; }
+	.link div { margin: 0px; text-align: center;}
+	aside { display: none;}
+	article { margin: 0px; width: 100%; }
+	iframe { width: 100%; }
+	.next { right: 0px; }
+	.Comments { display: none; }
+}

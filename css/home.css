@@ -56,7 +56,7 @@
 .active-pink-2 input[type=text]:focus:not([readonly]) {
 border: 1px solid #f48fb1;
 box-shadow: 0 0 0 1px #f48fb1;
-width: 300px;
+width: 350px;
 transition: 1s;
 border-radius: 20px;
 }
@@ -66,6 +66,9 @@ border-radius: 20px;
 .ccc:hover .sub-menu {
 	margin-top: 20px;
  	display: flex;
+}
+.text-right a{
+	font-size: 27px;
 }
 .allkhoahoc {
  	margin: auto;
@@ -94,7 +97,7 @@ border-radius: 20px;
 	height: 200px;
 	background-color: #ff0066;
 }
-.vue {
+.fw-js {
 	background-color: #f8b22c;
 }
 .php {
@@ -109,6 +112,13 @@ border-radius: 20px;
 .java {
 	background-color: #ff9c36;
 }
+.c {
+	background-color: #0000ff;
+}
+.html-css {
+	background-color: linear-gradient(to left, #33ccff 0%, #ff0066 100%);
+}
+
 .khoahoc img {
 	padding: 15px;
 }
@@ -238,8 +248,9 @@ footer {
 .lienquan div {
 	margin-left: 30px;
 }
-.lienquan div p {
+.lienquan div p a{
 	opacity: 0.7;
+	color: white;
 }
 .end p {
 	opacity: 0.7;
@@ -251,6 +262,20 @@ footer {
 @media screen and (max-width: 564px) {
 	footer { height: 450px; }
 	.cc { display: none; }
+	ul { margin: 20px; }
+	.active-pink-2 input[type=text]:focus:not([readonly]) {
+	border: 1px solid #f48fb1;
+	box-shadow: 0 0 0 1px #f48fb1;
+	width: 400px;
+	transition: 1s;
+	border-radius: 20px;
+	}
+	.active-pink-2 input[type=text] {
+	border: 1px solid #f48fb1;
+	box-shadow: 0 0 0 1px #f48fb1;
+	width: 400px;
+	border-radius: 20px;
+	}
 	.input { margin: 0px; }
 	.submit { position: absolute; right: 80px; }
 }
